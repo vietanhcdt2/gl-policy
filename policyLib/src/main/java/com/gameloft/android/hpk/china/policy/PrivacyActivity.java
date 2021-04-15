@@ -21,6 +21,7 @@ public class PrivacyActivity extends AppCompatActivity {
         final SharedPreferences sp = getSharedPreferences("userAgreementResult", 0);
         boolean agreed = sp.getBoolean("userAgreementResult", false);
         if (agreed) {
+            android.util.Log.e("va-test", "1");
             finishActivity(agreed);
             return;
         }
@@ -36,7 +37,7 @@ public class PrivacyActivity extends AppCompatActivity {
                     SharedPreferences.Editor editor = sp.edit();
                     editor.putBoolean("userAgreementResult", isAgree);
                     editor.apply();
-
+                android.util.Log.e("va-test", "2");
                     finishActivity(isAgree);
             }
         });

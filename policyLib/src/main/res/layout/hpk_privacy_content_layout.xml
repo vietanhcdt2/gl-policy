@@ -4,12 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/hpk_privacy_content_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/hpk_policy_content">
+    android:layout_height="match_parent">
 
     <ScrollView
+        android:id="@+id/hpk_policy_scroll_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="3dp"
+        android:paddingTop="8dp"
         android:scrollbarAlwaysDrawVerticalTrack="true"
         android:scrollbarFadeDuration="100"
         android:scrollbarThumbVertical="@drawable/hpk_policy_scrollbar"

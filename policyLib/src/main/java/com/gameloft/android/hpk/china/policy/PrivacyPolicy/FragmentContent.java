@@ -6,12 +6,15 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -32,6 +35,8 @@ public class FragmentContent extends Fragment {
     TableLayout tableLayout;
     private TextView tvPrivacyTitle;
     private TextView tvPrivacyContent;
+
+    private ScrollView scrollView;
 
     private TextView textView_01;
 
@@ -56,6 +61,7 @@ public class FragmentContent extends Fragment {
         Log.e("AddPrivacy", "FragmentContent onCreateView");
         View view = inflater.inflate(R.layout.hpk_privacy_content_layout, container);
         //tvPrivacyContent = view.findViewById(R.id.textView4);
+        scrollView = view.findViewById(R.id.hpk_policy_scroll_view);
 
         linearLayout = view.findViewById(R.id.linearLayout);
         int pos = getArguments().getInt("pos", 0);
@@ -81,21 +87,48 @@ public class FragmentContent extends Fragment {
 
         return view;
     }
-
-    @SuppressLint("ResourceAsColor")
+//    // Touch listener for the scroll view
+//    float mPreviousY;
+//    private View.OnTouchListener scrollViewTouchListener = new View.OnTouchListener() {
+//        @Override
+//        public boolean onTouch(View v, MotionEvent event) {
+//            float y = event.getY();
+//
+//            if (event.getAction() == MotionEvent.ACTION_MOVE) {
+//                float dy = y - mPreviousY;
+//
+//                // if user scrolls up and people image hasn't slided left,
+//                if (dy < -1 && mPeopleSlidedLeft == false) {
+//                    DisplayMetrics dm = new DisplayMetrics();
+//                    getActivity().getWindowManager().getDefaultDisplay().getMetrics(dm);
+//
+//                    int xDest = dm.widthPixels / 2;
+//                    xDest += mPeopleImage.getMeasuredWidth() / 2;
+//                    mPeopleImage.animate().setDuration(animationTime)
+//                            .translationX(originalPeoplePosition[0] - xDest);
+//                }
+//            }
+//
+//            mPeopleSlidedLeft = true;
+//            mPreviousY = y;
+//            return false;
+//        }
+//    };
+//
     private void createText(int resId) {
         textView_01 = new TextView(this.getContext());
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         lp.setMargins(50, 0, 50, 0);
         textView_01.setLayoutParams(lp);
         textView_01.setText(resId);
+        textView_01.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
         textView_01.setTextColor(-11776948);
         linearLayout.addView(textView_01);
     }
 
     private void createTableView(int rows, int cols, String info) {
         tableLayout = new TableLayout(this.getContext());
-        TableLayout.LayoutParams lp = new TableLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+        TableLayout.LayoutParams lp = new TableLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         lp.setMargins(50, 0, 50, 0);
         tableLayout.setLayoutParams(lp);
         tableLayout.setShrinkAllColumns(true);
@@ -116,10 +149,8 @@ public class FragmentContent extends Fragment {
                 TextView textView = new TextView(this.getContext());
                 textView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT,
                         TableRow.LayoutParams.MATCH_PARENT));
-                textView_01.setTextColor(-11776948);
-
                 textView.setBackgroundResource(R.drawable.hpk_policy_table_cell_shape);
-
+                textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
                 textView.setTextColor(-11776948);
                 if(i == 0)
                     textView.setTypeface(null, Typeface.BOLD);

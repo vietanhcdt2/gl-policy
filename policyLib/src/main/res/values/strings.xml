@@ -2,7 +2,7 @@
     <string name="hpk_privacy_button_next"> 下一个</string>
     <string name="hpk_privacy_button_agree"> 同意</string>
     <string name="hpk_privacy_button_decline"> 拒绝</string>
-    <string name="hpk_privacy_desc"> 在您使用本游戏服务前，请您务必审慎阅读、充分理解用户协议、隐私保护的各项条款。如您已详细阅读并同意本游戏用户协议、隐私保护，请点击“同意”开始使用我们的服务。如您拒绝，将无法进入游戏。</string>
+    <string name="hpk_privacy_desc"> 在您使用本游戏服务前，请您务必审慎阅读、充分理解《使用条款》、《隐私权政策》等法律文件。请您特别注意其中涉及到您权利义务、有关隐私保护的相关条款。同时，您应特别注意前述协议中免除或者限制我们责任的条款、对您权利进行限制的条款、约定争议解决方式和司法管辖的条款。如您已详细阅读并同意以下《使用条款》、《隐私权政策》等文件，请点击“同意”开始使用我们的服务。如您拒绝，将无法进入游戏。</string>
     <string name="hpk_term_of_use_title"> 使用条款 </string>
     <string name="hpk_privacy_policy_title"> 隐私权政策 </string>
     <string name="hpk_cookies_policy_title"> COOKIES政策</string>
@@ -15,13 +15,13 @@
 \n\n<b><font size="14">如何选择使用/取消：</font></b>
         \n此《使用条款》生效于2008年1月1日，最后一次修改时间为2016年9月1日。
 
-\n\n1. 要选择使用我们的新闻服务，您可以从我们的网站<font fgcolor='#0099FF'>www.gameloft.com</font>上进行注册。要选择取消，前往<font fgcolor='#0099FF'>https://www.gameloft.com/minisites/unsubscribeNL/</font>
+\n\n1. 要选择使用我们的新闻服务，您可以从我们的网站<font fgcolor='#38BFF6'>www.gameloft.com</font>上进行注册。要选择取消，前往<font fgcolor='#38BFF6'>https://www.gameloft.com/minisites/unsubscribeNL/</font>
 
-\n\n2. 要选择使用我们的商店服务，您可以进入网站<font fgcolor='#0099FF'>www.gameloft.com</font>到商店中进行注册。要选择取消，向<font fgcolor='#0099FF'>PrivacyPolicyGameloft@gameloft.com</font>发送请求即可。
+\n\n2. 要选择使用我们的商店服务，您可以进入网站<font fgcolor='#38BFF6'>www.gameloft.com</font>到商店中进行注册。要选择取消，向<font fgcolor='#38BFF6'>PrivacyPolicyGameloft@gameloft.com</font>发送请求即可。
 
-\n\n3. 如果您希望删除所有Gameloft根据您的事先同意并通过您Gameloft LIVE!账户所获得的个人数据，向<font fgcolor='#0099FF'>PrivacyPolicyGameloft@gameloft.com</font>发送请求即可。
+\n\n3. 如果您希望删除所有Gameloft根据您的事先同意并通过您Gameloft LIVE!账户所获得的个人数据，向<font fgcolor='#38BFF6'>PrivacyPolicyGameloft@gameloft.com</font>发送请求即可。
 
-        \n\n<b>如何获取帮助与支持</b>：如需帮助，请访问我们的客户服务门户：<font fgcolor='#0099FF'>https://support.gameloft.com/</font>。
+        \n\n<b>如何获取帮助与支持</b>：如需帮助，请访问我们的客户服务门户：<font fgcolor='#38BFF6'>https://support.gameloft.com/</font>。
 
         \n\n<b>费用</b>：可能会向您收取信息和数据流量费，资费依据您个人的移动服务套餐而定。Gameloft收取的购买游戏的一次性费用将依据您的运营商、您的居住国以及您所选择的游戏而有所变动。这些费用将通过您的移动电话账单进行收取，或从您的预付账户中扣取。这些费用将出现在移动电话账单中的Gameloft条目下。
 
@@ -29,7 +29,7 @@
 
 \n\n此《使用条款协议》（简称“协议”）包含了我们服务的使用政策，决定了您使用服务时所享有的权利、应履行的义务及所受到的限制。只有您同意遵守适用法律和此协议，您才会被授权使用服务。
 
-\n\n对于我们来说，您的隐私很重要，因此，此协议也包含并引用了我们的隐私权政策（<font fgcolor='#0099FF'>https://www.gameloft.com/privacy-notice/</font>），该隐私权政策解释了我们如何收集和使用您的内容和信息。请您务必阅读该隐私权政策。
+\n\n对于我们来说，您的隐私很重要，因此，此协议也包含并引用了我们的隐私权政策（<font fgcolor='#38BFF6'>https://www.gameloft.com/privacy-notice/</font>），该隐私权政策解释了我们如何收集和使用您的内容和信息。请您务必阅读该隐私权政策。
 
 \n\n您访问和使用“服务”即构成您表明并保证您已达到达成具有约束力的合同的法定年龄，如果您尚未达到法定年龄，您对“服务”的访问和使用则是在父母或法定监护人的允许下进行的，并且您不是被任何当地、国家、联邦或国际法律禁止使用或接受“服务”的人。
 
@@ -42,7 +42,7 @@
 \n\n\n<b><font size="14">I. 您的账号/密码安全/停用，终止</font></b>
 \n\n在您第一次使用此应用程序时，您可能会被要求表明您的年龄。请您谅解，因为我们需要据此为您提供游戏内的体验。我们也可能会因此对我们的应用程序设立一些年龄限制，而您同意并知晓我们部分应用程序的使用要求您年满十三（13）周岁。
 
-\n\n为了方便您使用这些服务的某些功能，您可能会被要求注册一个账号（“账户”）。在创建或更新账号时，您可能需要向我们提供一些个人资料，可能包括您的姓名、出生日期、电子邮件地址，在某些情况下，您可能还需要提供支付信息。这些信息将会依照我们的隐私权政策（请查看<font fgcolor='#0099FF'>https://www.gameloft.com/privacy-notice/</font>）被保留和使用。
+\n\n为了方便您使用这些服务的某些功能，您可能会被要求注册一个账号（“账户”）。在创建或更新账号时，您可能需要向我们提供一些个人资料，可能包括您的姓名、出生日期、电子邮件地址，在某些情况下，您可能还需要提供支付信息。这些信息将会依照我们的隐私权政策（请查看<font fgcolor='#38BFF6'>https://www.gameloft.com/privacy-notice/</font>）被保留和使用。
 
 \n\n您不能未经允许而使用其他的账号。您只能创建一个账号。如果您之前曾终止过账号，则您不能再注册新的账号。
 
@@ -63,7 +63,7 @@
 
 \n\n当您向我们提供信用卡信息的时候，您承认您是该信用卡的授权使用者，有权支付订阅或其他费用。如果您订购订阅服务，每月您使用这些服务时，您同意并重申我们被授权从您的信用卡收取订阅费用。您同意立即告知我们您的信用卡号码、其截止日期和/或您的账单地址发生的所有变化，并且，您也同意，如果您的信用卡过期或因其他原因被取消，您会立即告知我们。您将会有十个工作日的时间来接受所有新的费用。如果您没有通过书面通知让我们知道您接受了新的费用，您的订阅、计划或其他正在进行的服务、已付费服务，在适用的情况下，都有可能被立即终止。我们保留对某些服务收取适用税费及征收额外附加费的权利。
 
-\n\n和收费服务相关的应用程序、附加功能及虚拟物品可以被下载。对于买方的错误，试用版，在错误的电话、设备或平台上购买的软件，优惠码或未在购买时提供折扣或购买日期超过90天（自购买之日起）的物品，我们均不以任何理由为其承担任何责任（“买方错误”）。对于您的运行商向您发送的账单说明上的所有错误，我们均不为其承担任何责任。您有全部责任来确认受支持的手机或其他设备生产商、手机或其他设备模型、运营商以及您购买、下载或通过其他方式获得的产品或服务和手机或其他设备是否兼容。虽然我们会提供合理的商业行为来帮您获得适合您的手机、设备或平台的软件，但是我们不会为买方错误承担任何责任。对于这些服务中的可用产品或服务，如果您还有其他疑问，请通过<font fgcolor='#0099FF'>support@gameloft.com</font>联系Gameloft技术团队。在适用情况下，对于超过九十（90）天（从现在或购买之日算）的下载或购买，我们都不会对和其相关的任意缺陷或其他问题负责。我们不接受任何软件下载的退货。所以，在您进行任何购买之前，请仔细阅读系统要求。
+\n\n和收费服务相关的应用程序、附加功能及虚拟物品可以被下载。对于买方的错误，试用版，在错误的电话、设备或平台上购买的软件，优惠码或未在购买时提供折扣或购买日期超过90天（自购买之日起）的物品，我们均不以任何理由为其承担任何责任（“买方错误”）。对于您的运行商向您发送的账单说明上的所有错误，我们均不为其承担任何责任。您有全部责任来确认受支持的手机或其他设备生产商、手机或其他设备模型、运营商以及您购买、下载或通过其他方式获得的产品或服务和手机或其他设备是否兼容。虽然我们会提供合理的商业行为来帮您获得适合您的手机、设备或平台的软件，但是我们不会为买方错误承担任何责任。对于这些服务中的可用产品或服务，如果您还有其他疑问，请通过<font fgcolor='#38BFF6'>support@gameloft.com</font>联系Gameloft技术团队。在适用情况下，对于超过九十（90）天（从现在或购买之日算）的下载或购买，我们都不会对和其相关的任意缺陷或其他问题负责。我们不接受任何软件下载的退货。所以，在您进行任何购买之前，请仔细阅读系统要求。
 
 \n\n某些应用程序允许您购买该应用程序内的虚拟物品（详见下文说明）。此类购买在您购买下载或免费下载的应用程序中都有可能出现。另外，某些应用程序，包括免费下载的应用程序，可能包含第三方广告，这些广告有可能将您引导至第三方网站。
 
@@ -145,7 +145,7 @@
 
 
 \n\n\n<b><font size="12">C. 广告</font></b>
-\n\n通过使用我们的网站/应用程序，您可能会收到广告内容。同样地，您保证同意我们与广告相关的使用条款。详情请参见：<font fgcolor='#0099FF'>https://www.gameloft.com/privacy-notice/</font>。
+\n\n通过使用我们的网站/应用程序，您可能会收到广告内容。同样地，您保证同意我们与广告相关的使用条款。详情请参见：<font fgcolor='#38BFF6'>https://www.gameloft.com/privacy-notice/</font>。
 
 \n\nGameloft不对广告中展示的第三方产品或服务负责。
 
@@ -169,7 +169,7 @@
 
 
 \n\n\n<b><font size="14">VI. 侵权通知</font></b>
-\n\n在上述内容不受限制的情况下，如果您认为公布到服务上的任何内容，包括用户内容或其他材料侵犯了您的版权或商标，对于所有提交的包含以下信息（下文详细说明）的通知，我们都会迅速作出回应。请将所有的通知发送到此电子邮件地址：<font fgcolor='#0099FF'>legal@gameloft.com</font>。
+\n\n在上述内容不受限制的情况下，如果您认为公布到服务上的任何内容，包括用户内容或其他材料侵犯了您的版权或商标，对于所有提交的包含以下信息（下文详细说明）的通知，我们都会迅速作出回应。请将所有的通知发送到此电子邮件地址：<font fgcolor='#38BFF6'>legal@gameloft.com</font>。
 
 \n\n该通知必须是书面通知，包含以下内容才能生效：1.声称被侵犯的专利拥有者的授权代理人的手写或电子签名；2.声称被侵权的作品的版权证明；如果单个在线网站的多个版权作品包含在一个通知中，则需要该网站作品的代理人名单；3. 声称侵犯了其他作品权利的材料，或侵权行为主体的材料、需要删除或被禁止访问的材料等的相关证明以及能够让我们定位该材料的合理充分的信息；4. 能够让我们和申诉方取得联系的合理充分的信息，比如地址、电话号码及能够让我们联系到申诉方的电子邮件地址（如果有的话）；5. 申诉方有足够理由相信被申诉的材料的使用没有被其版权所有者、代理人或法律授权的声明；以及6. 说明通知中的信息准确无误、如作伪证将受到处罚、申诉方有权代表声称被侵犯的专利权所有人的声明。
 
@@ -240,7 +240,7 @@
 
 
 \n\n\n<b><font size="14">XVII. 支持</font></b>
-\n\n根据该协议的其他规定所述，Gameloft会协助您解决您在使用该服务或通过该服务进行购买时遇到的任何疑问或问题。请通过 <font fgcolor='#0099FF'>support@gameloft.com</font> 来联系我们的客户服务。他们会派出专业的代表尽快解决您的问题。
+\n\n根据该协议的其他规定所述，Gameloft会协助您解决您在使用该服务或通过该服务进行购买时遇到的任何疑问或问题。请通过 <font fgcolor='#38BFF6'>support@gameloft.com</font> 来联系我们的客户服务。他们会派出专业的代表尽快解决您的问题。
 
 
 
@@ -252,7 +252,7 @@
 \n\n\n<b><font size="14">XIX. 修改</font></b>
 \n\n我们有权在不做出任何通知的情况下对该服务、发布的政策和这些使用条款进行修改。
 
-\n\n如对于客户关系有任何疑问，或因游戏内的活动产生任何问题，请通过 <font fgcolor='#0099FF'>support@gameloft.com</font> 联系我们。
+\n\n如对于客户关系有任何疑问，或因游戏内的活动产生任何问题，请通过 <font fgcolor='#38BFF6'>support@gameloft.com</font> 联系我们。
 
     </string>
 
@@ -362,7 +362,7 @@
 
         \n\n<b><font size="12">合作方发送的cookies和追踪工具</font></b>
         \n<b><font size="12">Vivendi公司发送的cookies</font></b>
-        \nGameloft隶属于Vivendi集团，允许储存Vivendi集团公司，如Dailymotion、Universal Music Group、Editis、Vivendi Ticketing等使用的cookies。最新的详尽Vivendi集团公司列表，请参见此网站：<font fgcolor='#0099FF'>http://www.vivendi.com/vivendi/vivendi-en-bref-2/</font>。
+        \nGameloft隶属于Vivendi集团，允许储存Vivendi集团公司，如Dailymotion、Universal Music Group、Editis、Vivendi Ticketing等使用的cookies。最新的详尽Vivendi集团公司列表，请参见此网站：<font fgcolor='#38BFF6'>http://www.vivendi.com/vivendi/vivendi-en-bref-2/</font>。
 
 \n\nVivendi集团cookies可能会在您浏览我们的网站、观看我们的视频或是点击广告版面时投放。
 
@@ -404,41 +404,41 @@
 
 \n\n我们善意地提醒您，拒绝cookies可能会改变您对我们网站的访问条件以及对我们网站的使用。如要管理cookies，以便让其尽可能地满足您的预期，我们建议您在设置浏览器时要考虑到上述cookies的作用。
 
-        \n\n对于管理cookies和您的选择，各种浏览器的配置有所不同。我们建议您参考浏览器的帮助页面或是查看网站<font fgcolor='#0099FF'>AboutCookies.org</font>，以获取所有现代浏览器的指南。
+        \n\n对于管理cookies和您的选择，各种浏览器的配置有所不同。我们建议您参考浏览器的帮助页面或是查看网站<font fgcolor='#38BFF6'>AboutCookies.org</font>，以获取所有现代浏览器的指南。
 
 \n\n根据使用的浏览器，您还可以通过点击下方链接来配置您的偏好。
 
-        \n • <font fgcolor='#0099FF'>Internet Explorer</font>
-        \n • <font fgcolor='#0099FF'>Google Chrome</font>
-        \n • <font fgcolor='#0099FF'>Safari</font>
-        \n • <font fgcolor='#0099FF'>Firefox</font>
-        \n • <font fgcolor='#0099FF'>Opera</font>
+        \n • <font fgcolor='#38BFF6'>Internet Explorer</font>
+        \n • <font fgcolor='#38BFF6'>Google Chrome</font>
+        \n • <font fgcolor='#38BFF6'>Safari</font>
+        \n • <font fgcolor='#38BFF6'>Firefox</font>
+        \n • <font fgcolor='#38BFF6'>Opera</font>
 
-\n\n您可以通过访问由广告人才提供的cookie集中管理平台来管理cookies。您需要登录<font fgcolor='#0099FF'>http://www.youronlinechoices.com</font>网站，该网站由EDAA（欧洲互动数字广告联盟）集结的数字广告人才提供，并且由IABF（法国互动广告局）管理。
+\n\n您可以通过访问由广告人才提供的cookie集中管理平台来管理cookies。您需要登录<font fgcolor='#38BFF6'>http://www.youronlinechoices.com</font>网站，该网站由EDAA（欧洲互动数字广告联盟）集结的数字广告人才提供，并且由IABF（法国互动广告局）管理。
 
 \n\n您可以查看在该平台上注册过的企业，并接受或拒绝可能用于改进您的电脑浏览网站时所显示广告的cookies：
 
 \n\n配置会根据您的移动设备或平板电脑有所不同。
 
-\n • <font fgcolor='#0099FF'>iOS</font>
-\n • <font fgcolor='#0099FF'>Android</font>
-\n • <font fgcolor='#0099FF'>Blackberry</font>
-\n • <font fgcolor='#0099FF'>Windows Phone</font>
+\n • <font fgcolor='#38BFF6'>iOS</font>
+\n • <font fgcolor='#38BFF6'>Android</font>
+\n • <font fgcolor='#38BFF6'>Blackberry</font>
+\n • <font fgcolor='#38BFF6'>Windows Phone</font>
         \n\n<b><font size="16">限制广告追踪/拒绝追踪</font></b>
 \n\n您可以通过设置您电脑的浏览器来使其给网站发送一个代码，告知网站您不愿意被追踪。这个选项通常叫“拒绝追踪”。
 
-\n • <font fgcolor='#0099FF'>Internet Explorer™</font>
-\n • <font fgcolor='#0099FF'>Safari™</font>
-\n • <font fgcolor='#0099FF'>Chrome™</font>
-\n • <font fgcolor='#0099FF'>Firefox™</font>
-\n • <font fgcolor='#0099FF'>Opera™</font>
-\n • <font fgcolor='#0099FF'>Microsoft Edge™</font>
+\n • <font fgcolor='#38BFF6'>Internet Explorer™</font>
+\n • <font fgcolor='#38BFF6'>Safari™</font>
+\n • <font fgcolor='#38BFF6'>Chrome™</font>
+\n • <font fgcolor='#38BFF6'>Firefox™</font>
+\n • <font fgcolor='#38BFF6'>Opera™</font>
+\n • <font fgcolor='#38BFF6'>Microsoft Edge™</font>
 
 \n\n您还可以通过设置您的移动设备来限制广告追踪或重新启动广告识别。
-\n • <font fgcolor='#0099FF'>iOS</font>
-\n • <font fgcolor='#0099FF'>Android</font>
-\n • <font fgcolor='#0099FF'>Blackberry</font>
-\n • <font fgcolor='#0099FF'>Windows Phone</font>
+\n • <font fgcolor='#38BFF6'>iOS</font>
+\n • <font fgcolor='#38BFF6'>Android</font>
+\n • <font fgcolor='#38BFF6'>Blackberry</font>
+\n • <font fgcolor='#38BFF6'>Windows Phone</font>
 
 \n\n<b><font size="14">变更</font></b>
 \n我们保留随时对此Cookie政策进行变更的权利。如果我们对本Cookie政策进行重大变更，我们会将其重新发布到我们网站的“Cookies”页面，并在页面顶端注明变更日期。因此，请时常查看此Cookies政策，以便及时了解任何变更。政策变更后继续使用网站即表明您接受任何已进行的变更，并且，如果您不接受变更，您可以选择不使用该网站。
@@ -949,7 +949,7 @@
 
         \n\n<b>数据保护部门：</b>
 
-        \n1– 发送电子邮件至 <font fgcolor='#0099FF'>DataProtectionSupport@Gameloft.com.cn</font>
+        \n1– 发送电子邮件至 <font fgcolor='#38BFF6'>DataProtectionSupport@Gameloft.com.cn</font>
 
 \n2–写信寄到 Gameloft Data Protection Officer, 14 rue Auber, 75009 Paris, France
 

@@ -12,17 +12,14 @@
     <!--    <solid android:color="#38BFF6"/>-->
 
     <corners
-        android:bottomLeftRadius="10dp"
-        android:bottomRightRadius="10dp"
-        android:topLeftRadius="10dp"
-        android:topRightRadius="10dp" />
+        android:bottomLeftRadius="10dp" />
 
-    <!--    <gradient-->
-    <!--        android:centerColor="#E6ECEF"-->
-    <!--        android:endColor="#BEC8CC"-->
-    <!--        android:startColor="#BEC8CC" />-->
-
-    <solid android:color="#38BFF6"/>
-
-
+    <gradient
+        android:angle="90"
+        android:centerColor="#FFFFFF"
+        android:endColor="#FAF6F6"
+        android:startColor="#FAF6F6" />
+    <stroke
+        android:width="2dp"
+        android:color="#38BFF6" />
 </shape>
