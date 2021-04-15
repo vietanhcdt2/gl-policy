@@ -9,7 +9,7 @@
         <item name="android:backgroundDimEnabled">false</item>
     </style>
 
-    <style name="PrivacyThemeBase" parent="Theme.AppCompat">
+    <style name="PrivacyThemeBase" parent="Theme.AppCompat.NoActionBar">
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
 <!--        <item name="android:windowAnimationStyle">@null</item>-->
 
