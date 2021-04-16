@@ -121,7 +121,7 @@ public class FragmentContent extends Fragment {
         lp.setMargins(50, 0, 50, 0);
         textView_01.setLayoutParams(lp);
         textView_01.setText(resId);
-        textView_01.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
+        textView_01.setTextSize(TypedValue.COMPLEX_UNIT_SP, 10);
         textView_01.setTextColor(-11776948);
         linearLayout.addView(textView_01);
     }
@@ -150,7 +150,7 @@ public class FragmentContent extends Fragment {
                 textView.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT,
                         TableRow.LayoutParams.MATCH_PARENT));
                 textView.setBackgroundResource(R.drawable.hpk_policy_table_cell_shape);
-                textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
+                textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 10);
                 textView.setTextColor(-11776948);
                 if(i == 0)
                     textView.setTypeface(null, Typeface.BOLD);

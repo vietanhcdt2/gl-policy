@@ -57,7 +57,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button1"
+                    android:id="@+id/btn_hpk_policy_term"
                     android:layout_width="105dp"
                     android:layout_height="match_parent"
                     android:background="@drawable/hpk_privacy_layout_tab_unselected_top_left"
@@ -66,7 +66,7 @@
                     android:textStyle="bold" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/btn_hpk_policy_privacy"
                     android:layout_width="105dp"
                     android:layout_height="match_parent"
                     android:layout_marginTop="-2dp"
@@ -77,7 +77,7 @@
                     android:textSize="12sp" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/btn_hpk_policy_cookies"
                     android:layout_width="105dp"
                     android:layout_height="match_parent"
                     android:layout_marginTop="-2dp"
@@ -88,7 +88,7 @@
                     android:textSize="12sp" />
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/btn_hpk_policy_eula"
                     android:layout_width="105dp"
                     android:layout_height="match_parent"
                     android:layout_marginTop="-2dp"
@@ -115,7 +115,7 @@
 
     <LinearLayout
         android:id="@+id/hpk_layout_button_box"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="10dp"
@@ -128,8 +128,8 @@
 
         <Button
             android:id="@+id/btn_hpk_privacy_decline"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginRight="9dp"
             android:background="@drawable/hpk_privacy_layout_btn"
             android:text="@string/hpk_privacy_button_decline"
@@ -138,8 +138,8 @@
 
         <Button
             android:id="@+id/btn_hpk_privacy_next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:background="@drawable/hpk_privacy_layout_btn"
             android:text="@string/hpk_privacy_button_next"
             android:textSize="14sp"

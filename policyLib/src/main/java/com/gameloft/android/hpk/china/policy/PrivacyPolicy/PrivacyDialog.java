@@ -48,6 +48,7 @@ public class PrivacyDialog extends DialogFragment {
     private ViewPager2 viewPager;
     private ConstraintLayout dialogLayout;
     private RelativeLayout contentLayout;
+    private LinearLayout btnBoxLayout;
     private LinearLayout descLayout;
     private TabLayout tabLayout;
 
@@ -81,6 +82,7 @@ public class PrivacyDialog extends DialogFragment {
         dialogLayout = view.findViewById(R.id.hpk_privacy_dialog_layout);
         contentLayout = view.findViewById(R.id.hpk_privacy_content);
         descLayout = view.findViewById(R.id.hpk_policy_desc_layout);
+        btnBoxLayout = view.findViewById(R.id.hpk_layout_button_box);
         tvDesc = view.findViewById(R.id.hpk_policy_desc);
         tvDesc.setTextColor(-11776948);
         viewPager = view.findViewById(R.id.vp_hpk_dialog_content);
@@ -90,132 +92,47 @@ public class PrivacyDialog extends DialogFragment {
         int height = displaymetrics.heightPixels;
         int width = displaymetrics.widthPixels;
 
-//        dialogWidth = (int)(350 * width/WIDTH );
-//        dialogHeight = (int)(110 * height/HEIGHT );
-        dialogWidth = (int)(width * 0.70 );
-        dialogHeight = (int)(height * 0.47 );
+        Log.e("va-test", "den=" + getActivity().getResources().getDisplayMetrics().density);
 
-        // resize dialog
-        ConstraintSet constraintSet = new ConstraintSet();
-        constraintSet.clone(dialogLayout);
-
-//        constraintSet.constrainHeight(contentLayout.getId(), dialogHeight);
-        constraintSet.constrainWidth(contentLayout.getId(), dialogWidth);
-
-        constraintSet.constrainWidth(descLayout.getId(), dialogWidth);
-        //constraintSet.constrainWidth(tabLayout.getId(), dialogWidth);
-
-        // apply update to layout
-        constraintSet.applyTo(dialogLayout);
 
         Log.d("va-test", Color.rgb(56,191,246) + "");
-        btnTerm = view.findViewById(R.id.button1);
+        btnTerm = view.findViewById(R.id.btn_hpk_policy_term);
         btnTerm.setTextColor(-13058058);
 
         btnTerm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 updateBars(0);
-//                viewPager.setCurrentItem(0);
-//                btnTerm.setTypeface(Typeface.DEFAULT_BOLD);
-//                btnTerm.setTextColor(-13058058);
-//                btnTerm.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-//
-//                btnPrivacy.setTypeface(Typeface.DEFAULT);
-//                btnPrivacy.setTextColor(Color.BLACK);
-//                btnPrivacy.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-//
-//                btnCookies.setTypeface(Typeface.DEFAULT);
-//                btnCookies.setTextColor(Color.BLACK);
-//                btnCookies.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-//
-//                btnEula.setTypeface(Typeface.DEFAULT);
-//                btnEula.setTextColor(Color.BLACK);
-//                btnEula.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
             }
         });
 
-        btnPrivacy = view.findViewById(R.id.button2);
+        btnPrivacy = view.findViewById(R.id.btn_hpk_policy_privacy);
         btnPrivacy.setTextColor(Color.BLACK);
 
         btnPrivacy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 updateBars(1);
-//                viewPager.setCurrentItem(1);
-//
-//                btnTerm.setTypeface(Typeface.DEFAULT);
-//                btnTerm.setTextColor(Color.BLACK);
-//                btnTerm.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-//
-//                btnPrivacy.setTypeface(Typeface.DEFAULT_BOLD);
-//                btnPrivacy.setTextColor(-13058058);
-//                btnPrivacy.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-//
-//                btnCookies.setTypeface(Typeface.DEFAULT);
-//                btnCookies.setTextColor(Color.BLACK);
-//                btnCookies.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-//
-//                btnEula.setTypeface(Typeface.DEFAULT);
-//                btnEula.setTextColor(Color.BLACK);
-//                btnEula.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-
-
             }
         });
 
-        btnCookies = view.findViewById(R.id.button3);
+        btnCookies = view.findViewById(R.id.btn_hpk_policy_cookies);
         btnCookies.setTextColor(Color.BLACK);
 
         btnCookies.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 updateBars(2);
-//                viewPager.setCurrentItem(2);
-//
-//                btnTerm.setTypeface(Typeface.DEFAULT);
-//                btnTerm.setTextColor(Color.BLACK);
-//                btnTerm.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-//
-//                btnPrivacy.setTypeface(Typeface.DEFAULT);
-//                btnPrivacy.setTextColor(Color.BLACK);
-//                btnPrivacy.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-//
-//                btnCookies.setTypeface(Typeface.DEFAULT_BOLD);
-//                btnCookies.setTextColor(-13058058);
-//                btnCookies.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-//
-//                btnEula.setTypeface(Typeface.DEFAULT);
-//                btnEula.setTextColor(Color.BLACK);
-//                btnEula.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-
             }
         });
 
-        btnEula = view.findViewById(R.id.button4);
+        btnEula = view.findViewById(R.id.btn_hpk_policy_eula);
         btnEula.setTextColor(Color.BLACK);
 
         btnEula.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 updateBars(3);
-//                viewPager.setCurrentItem(3);
-//
-//                btnTerm.setTypeface(Typeface.DEFAULT);
-//                btnTerm.setTextColor(Color.BLACK);
-//                btnTerm.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-//
-//                btnPrivacy.setTypeface(Typeface.DEFAULT);
-//                btnPrivacy.setTextColor(Color.BLACK);
-//                btnPrivacy.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-//
-//                btnCookies.setTypeface(Typeface.DEFAULT);
-//                btnCookies.setTextColor(Color.BLACK);
-//                btnCookies.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
-//
-//                btnEula.setTypeface(Typeface.DEFAULT_BOLD);
-//                btnEula.setTextColor(-13058058);
-//                btnEula.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
             }
         });
 
@@ -237,32 +154,6 @@ public class PrivacyDialog extends DialogFragment {
                 updateBars(position);
             }
         });
-
-
-//        new TabLayoutMediator(tabLayout, viewPager,
-//                new TabLayoutMediator.TabConfigurationStrategy() {
-//                    @Override
-//                    public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {
-//                        switch (position){
-//                            case 0:
-//                                tab.setText(R.string.hpk_term_of_use_title);
-//                                break;
-//                            case 1:
-//                                tab.setText(R.string.hpk_privacy_policy_title);
-//
-//                                break;
-//                            case 2:
-//                                tab.setText(R.string.hpk_cookies_policy_title);
-//
-//                                break;
-//                            case 3:
-//                                tab.setText(R.string.hpk_eula_title);
-//
-//                                break;
-//                        }
-//                    }
-//                }
-//        ).attach();
 
         btnNext = view.findViewById(R.id.btn_hpk_privacy_next);
         btnNext.setText(R.string.hpk_privacy_button_agree);
@@ -316,9 +207,51 @@ public class PrivacyDialog extends DialogFragment {
             }
         });
 
+        dialogWidth = (int)(width * 0.70 );
+        dialogHeight = (int)(height * 0.47 );
+
+
+
+        // resize dialog
+        ConstraintSet constraintSet = new ConstraintSet();
+        constraintSet.clone(dialogLayout);
+
+//        constraintSet.constrainHeight(contentLayout.getId(), dialogHeight);
+        constraintSet.constrainWidth(contentLayout.getId(), dialogWidth);
+
+        constraintSet.constrainWidth(descLayout.getId(), dialogWidth);
+        //constraintSet.constrainWidth(tabLayout.getId(), dialogWidth);
+
+        constraintSet.constrainHeight(btnBoxLayout.getId(), dialogHeight/5);
+//        constraintSet.constrainWidth(btnBoxLayout.getId(), dialogWidth/5);
+
+
+        // apply update to layout
+        constraintSet.applyTo(dialogLayout);
+
+        updateButtonLayout(btnDecline);
+        updateButtonLayout(btnNext);
+        updatePageButtonLayout(btnTerm);
+        updatePageButtonLayout(btnPrivacy);
+        updatePageButtonLayout(btnCookies);
+        updatePageButtonLayout(btnEula);
 
 
         return view;
+    }
+
+    private void updateButtonLayout(Button btn) {
+        ViewGroup.LayoutParams params = btn.getLayoutParams();
+        params.width = (int) (dialogWidth / 7);
+        params.height = (int) (dialogHeight / 5);
+        btn.requestLayout();
+    }
+
+    private void updatePageButtonLayout(Button btn) {
+        ViewGroup.LayoutParams params = btn.getLayoutParams();
+        params.width = (int) (dialogWidth * 0.22);
+        params.height = (int) (dialogHeight * 0.23);
+        btn.requestLayout();
     }
 
     private void updateBars(int pos) {
@@ -344,6 +277,26 @@ public class PrivacyDialog extends DialogFragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        long heightDesc = tvDesc.getHeight();
+        Log.e("va-test", "1 heightDesc=" + heightDesc);
+    }
+
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        long heightDesc = tvDesc.getHeight();
+        Log.e("va-test", "2 heightDesc=" + heightDesc);
+
+        long heightDlg = dialogLayout.getHeight();
+        Log.e("va-test", "2 heightDlg=" + heightDlg);
     }
 
 }

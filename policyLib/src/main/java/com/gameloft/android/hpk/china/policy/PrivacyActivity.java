@@ -16,7 +16,8 @@ public class PrivacyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_privacy);
+        setContentView(R.layout.hpk_activity_privacy);
+
         //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         final SharedPreferences sp = getSharedPreferences("userAgreementResult", 0);
         boolean agreed = sp.getBoolean("userAgreementResult", false);
