@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.gameloft.android.hpk.china.policy.PrivacyPolicy.ArgeementListener;
 import com.gameloft.android.hpk.china.policy.PrivacyPolicy.PrivacyDialog;
@@ -19,8 +20,8 @@ public class PrivacyActivity extends AppCompatActivity {
         setContentView(R.layout.hpk_activity_privacy);
 
         //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-        final SharedPreferences sp = getSharedPreferences("userAgreementResult", 0);
-        boolean agreed = sp.getBoolean("userAgreementResult", false);
+        final SharedPreferences sp = getSharedPreferences(PolicyConstants.shareRefFileName, 0);
+        boolean agreed = sp.getBoolean(PolicyConstants.agreedPolicyStr, false);
         if (agreed) {
             android.util.Log.e("va-test", "1");
             finishActivity(agreed);
@@ -36,12 +37,13 @@ public class PrivacyActivity extends AppCompatActivity {
             public void onAgreementResult(boolean isAgree, String msg) {
                     android.util.Log.e("va-test", "user agree -> start login activity");
                     SharedPreferences.Editor editor = sp.edit();
-                    editor.putBoolean("userAgreementResult", isAgree);
+                    editor.putBoolean(PolicyConstants.agreedPolicyStr, isAgree);
                     editor.apply();
                 android.util.Log.e("va-test", "2");
                     finishActivity(isAgree);
             }
         });
+        Log.d("va-test", "privacyDialog.show");
         privacyDialog.show(fm, null);
     }
 

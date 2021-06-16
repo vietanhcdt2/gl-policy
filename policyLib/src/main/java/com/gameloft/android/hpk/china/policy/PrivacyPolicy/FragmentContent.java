@@ -72,8 +72,8 @@ public class FragmentContent extends Fragment {
                 break;
             case 1:
                 createText(R.string.privacy_note_text_01);
-                createTableView(4,2, "hpk_privacy_notice_table");
-                createText(R.string.hpk_privacy_notice_text_02);
+//                createTableView(4,2, "hpk_privacy_notice_table");
+//                createText(R.string.hpk_privacy_notice_text_02);
                 break;
             case 2:
                 createText(R.string.showcase_cookie_policy_text_01);

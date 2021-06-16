@@ -62,6 +62,7 @@ public class PrivacyDialog extends DialogFragment {
     }
 
     public static PrivacyDialog newInstance(String data) {
+        Log.d("va-test", "newInstance");
         PrivacyDialog dialog = new PrivacyDialog();
         return dialog;
     }
@@ -69,6 +70,7 @@ public class PrivacyDialog extends DialogFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d("va-test", "onCreate");
         setStyle(DialogFragment.STYLE_NORMAL, R.style.mydialog);
     }
 
@@ -77,7 +79,7 @@ public class PrivacyDialog extends DialogFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
+        Log.d("va-test", "onCreateView");
         View view = inflater.inflate(R.layout.hpk_privacy_dialog_layout, container);
         dialogLayout = view.findViewById(R.id.hpk_privacy_dialog_layout);
         contentLayout = view.findViewById(R.id.hpk_privacy_content);
@@ -97,7 +99,7 @@ public class PrivacyDialog extends DialogFragment {
 
         Log.d("va-test", Color.rgb(56,191,246) + "");
         btnTerm = view.findViewById(R.id.btn_hpk_policy_term);
-        btnTerm.setTextColor(-13058058);
+        btnTerm.setTextColor(-16744320);
 
         btnTerm.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -157,12 +159,14 @@ public class PrivacyDialog extends DialogFragment {
 
         btnNext = view.findViewById(R.id.btn_hpk_privacy_next);
         btnNext.setText(R.string.hpk_privacy_button_agree);
-        btnNext.setTextColor(-13058058);
+        btnNext.setTextColor(-16744320);
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.d("va-test", "dismisss dialog by agree 1");
                 dismiss();
                 argeementListener.onAgreementResult(true,"Agree");
+                Log.d("va-test", "dismisss dialog by agree 2");
             }
         });
 
@@ -174,7 +178,7 @@ public class PrivacyDialog extends DialogFragment {
                     btnNext.setTextColor(-1);
                 } else if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
                     btnNext.setBackgroundResource(R.drawable.hpk_privacy_layout_btn);
-                    btnNext.setTextColor(-13058058);
+                    btnNext.setTextColor(-16744320);
                 }
                 return false;
             }
@@ -182,7 +186,7 @@ public class PrivacyDialog extends DialogFragment {
 
         btnDecline = view.findViewById(R.id.btn_hpk_privacy_decline);
         btnDecline.setText(R.string.hpk_privacy_button_decline);
-        btnDecline.setTextColor(-13058058);
+        btnDecline.setTextColor(-16744320);
         btnDecline.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -201,16 +205,14 @@ public class PrivacyDialog extends DialogFragment {
                     btnDecline.setTextColor(-1);
                 } else if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
                     btnDecline.setBackgroundResource(R.drawable.hpk_privacy_layout_btn);
-                    btnDecline.setTextColor(-13058058);
+                    btnDecline.setTextColor(-16744320);
                 }
                 return false;
             }
         });
 
-        dialogWidth = (int)(width * 0.70 );
-        dialogHeight = (int)(height * 0.47 );
-
-
+        dialogWidth = (int)(width * 0.70 ); // table policy
+        dialogHeight = (int)(height * 0.47 ); // table policy
 
         // resize dialog
         ConstraintSet constraintSet = new ConstraintSet();
@@ -220,7 +222,7 @@ public class PrivacyDialog extends DialogFragment {
         constraintSet.constrainWidth(contentLayout.getId(), dialogWidth);
 
         constraintSet.constrainWidth(descLayout.getId(), dialogWidth);
-        //constraintSet.constrainWidth(tabLayout.getId(), dialogWidth);
+        constraintSet.constrainHeight(descLayout.getId(), dialogHeight/3);
 
         constraintSet.constrainHeight(btnBoxLayout.getId(), dialogHeight/5);
 //        constraintSet.constrainWidth(btnBoxLayout.getId(), dialogWidth/5);
@@ -262,7 +264,7 @@ public class PrivacyDialog extends DialogFragment {
             if(pos == index) {
                 viewPager.setCurrentItem(pos);
                 btn.setTypeface(Typeface.DEFAULT_BOLD);
-                btn.setTextColor(-13058058);
+                btn.setTextColor(-16744320);
                 btn.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
             } else {
                 btn.setTypeface(Typeface.DEFAULT);
@@ -278,12 +280,13 @@ public class PrivacyDialog extends DialogFragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-
+        Log.e("va-test", "onViewCreated");
     }
 
     @Override
     public void onResume() {
         super.onResume();
+        Log.e("va-test", "onResume");
         long heightDesc = tvDesc.getHeight();
         Log.e("va-test", "1 heightDesc=" + heightDesc);
     }
@@ -292,6 +295,7 @@ public class PrivacyDialog extends DialogFragment {
     @Override
     public void onPause() {
         super.onPause();
+        Log.e("va-test", "onPause");
         long heightDesc = tvDesc.getHeight();
         Log.e("va-test", "2 heightDesc=" + heightDesc);
 

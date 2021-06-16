@@ -8,8 +8,8 @@
 
     <!--    <stroke-->
     <!--        android:width="2dp"-->
-    <!--        android:color="#38BFF6" />-->
-    <!--    <solid android:color="#38BFF6"/>-->
+    <!--        android:color="#@color/hpk_border" />-->
+    <!--    <solid android:color="#@color/hpk_border"/>-->
 
     <corners
         android:bottomLeftRadius="5dp"
